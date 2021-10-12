@@ -1,0 +1,58 @@
+.header-title-flex {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.header-title:hover {
+    cursor: pointer;
+}
+.header-button,
+.header-button:focus {
+    background-color: #3faeed;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+.header-button:hover {
+    background-color: #3faeed;
+    border: none;
+    color: #234ade;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+.el-button + .el-button {
+    margin-left: 0px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+}
+.el-dropdown-link {
+    color: #ffffff;
+    font-size: 14px;
+}
+.el-dropdown-link:hover {
+    color: #234ade;
+}

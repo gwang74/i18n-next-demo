@@ -1,0 +1,47 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+#nav a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+#nav a.router-link-exact-active {
+    color: #3faeed;
+}
+.el-header {
+    position: fixed;
+    background-color: #3faeed;
+    width: 100%;
+    z-index: 999;
+    height: 60px !important;
+}
+.el-main {
+    margin-top: 60px !important;
+    padding: 20px 20px !important;
+    overflow: hidden !important;
+    background-color: #f6f8fb;
+    min-height: 600px;
+}
+.el-footer {
+    padding: 0px !important;
+}
+a {
+    text-decoration: none;
+    font-weight: normal !important;
+}
+.table-header-fixed {
+    z-index: 1;
+    position: fixed;
+    top: 60px;
+}
+.el-popper.is-dark {
+    background: rgba(00, 00, 00, 0.5) !important;
+    max-width: 400px;
+}
+.baseDialog {
+    width: 30% !important;
+}
